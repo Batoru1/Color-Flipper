@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.title {
+.name {
   display: flex;
   justify-content: center;
   background-color: aliceblue;
@@ -17,4 +17,19 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  align-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.btn {
+  margin: 30px;
+  font-size: 20px;
+  padding: 5px 25px;
+  border-radius: 10%;
+  letter-spacing: 3px;
+  border: 2px solid black;
 }
