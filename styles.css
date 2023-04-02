@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgb(245, 244, 244);
+}
+
 .name {
   display: flex;
   justify-content: center;
@@ -25,11 +29,31 @@
   white-space: nowrap;
 }
 
+.main h1 {
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 7px;
+  font-size: 45px;
+}
+
+.main span {
+  color: rgb(78, 78, 162);
+  font-size: 30px;
+}
+
 .btn {
   margin: 30px;
   font-size: 20px;
   padding: 5px 25px;
-  border-radius: 10%;
+  border-radius: 7px;
   letter-spacing: 3px;
   border: 2px solid black;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.btn:hover {
+  color: white;
+  background-color: black;
 }
