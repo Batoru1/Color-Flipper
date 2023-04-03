@@ -1,7 +1,8 @@
 # Color-Flipper
 
-Try n make
-Finished simple thiscolor-flipper app :)
+Try n make.
+
+Finished this simple color-flipper app :)
 
 Math.random() generates a random decimal number between 0 (inclusive) and 1 (exclusive).
 
